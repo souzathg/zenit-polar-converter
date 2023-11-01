@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <footer className="text-center text-gray-lighter text-sm flex flex-row justify-center items-center w-full absolute bottom-2 opacity-50">Developed with ❤️ by <a target='_blank' href="https://github.com/souzathg" className='hover:text-primary ml-1'>@souzathg</a></footer>
+      </body>
     </html>
   )
 }

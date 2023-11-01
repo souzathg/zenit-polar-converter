@@ -24,6 +24,7 @@ export function ResultArea(props: {resultText: string}) {
       resize-none"
         spellCheck="false"
         placeholder="Result will appear here!"
+        readOnly
         value={resultText}
       />
   )
