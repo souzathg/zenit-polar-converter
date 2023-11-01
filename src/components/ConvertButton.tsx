@@ -4,7 +4,8 @@ export function ConvertButton(props: {disable: boolean, conversion: () => void})
       id="convert-button"
       className="p-3
       my-5
-      md:mx-20
+      md:mx-10
+      lg:mx-20
       md:p-8
       transition-all
       ease-in-out
